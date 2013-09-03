@@ -6,9 +6,10 @@ gem 'rails', '4.0.0'
 gem 'rails-api'
 
 # Use postgresql as the database for Active Record
-gem 'pg'
+gem 'pg', :platforms => [:mri]
+gem 'activerecord-jdbcpostgresql-adapter', "1.3.0.rc1", :platforms => [:jruby]
 
-
+gem 'puma'
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 

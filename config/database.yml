@@ -19,7 +19,8 @@ development:
   encoding: unicode
   database: grape_v_rails_api_rails_app_development
   pool: 5
-  username: grape_v_rails_api_rails_app
+  host: 127.0.0.1
+  username: postgres
   password:
 
   # Connect on a TCP socket. Omitted by default since the client uses a
@@ -48,7 +49,8 @@ test:
   encoding: unicode
   database: grape_v_rails_api_rails_app_test
   pool: 5
-  username: grape_v_rails_api_rails_app
+  host: 127.0.0.1
+  username: postgres
   password:
 
 production:
@@ -56,5 +58,6 @@ production:
   encoding: unicode
   database: grape_v_rails_api_rails_app_production
   pool: 5
-  username: grape_v_rails_api_rails_app
+  host: 127.0.0.1
+  username: postgres
   password:
