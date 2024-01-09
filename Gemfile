@@ -9,7 +9,7 @@ gem 'rails-api'
 # gem 'pg', :platforms => [:mri]
 # gem 'activerecord-jdbcpostgresql-adapter', "1.3.0.rc1", :platforms => [:jruby]
 
-gem 'puma'
+gem 'puma', '>= 5.6.8'
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
